@@ -38,7 +38,7 @@ public class VideoListFragment extends BaseFragment implements RecyclerView.OnCh
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity(),LinearLayoutManager.VERTICAL,false));
         mRecyclerView.setAdapter(new VideoListAdapter(Arrays.asList(getResources().getStringArray(R.array.hot))));
         mRecyclerView.addOnChildAttachStateChangeListener(this);
-        //哈哈哈哈哈哈哈哈
+
     }
 
     @Override
