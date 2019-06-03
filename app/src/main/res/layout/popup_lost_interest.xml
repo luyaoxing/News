@@ -52,7 +52,7 @@
                 android:id="@+id/cb_source"
                 android:layout_weight="1"
                 android:layout_width="0dp"
-                android:text="来源"
+                android:text="敏感字眼"
                 android:maxLines="1"
                 android:textSize="14sp"
                 android:textColor="@color/color_lose_interest"

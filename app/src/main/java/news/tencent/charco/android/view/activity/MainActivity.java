@@ -76,7 +76,7 @@ public class MainActivity extends BaseActivity implements BottomBarLayout.OnItem
             mNewsFragment.closeSeacher();
         } else {
             if (System.currentTimeMillis() - mLastClick > 2000) {
-                ToastUtil.showToast("再按一次退出腾讯资讯");
+                ToastUtil.showToast("再按一次退出纽斯News");
                 mLastClick = System.currentTimeMillis();
             } else {
                 super.onBackPressed();

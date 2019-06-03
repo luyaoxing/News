@@ -37,7 +37,7 @@
 
             <TextView
                 android:id="@+id/tv_seacher"
-                android:text="搜索新闻"
+                android:text="Search"
                 android:layout_marginLeft="15dp"
                 android:padding="5dp"
                 android:gravity="center_vertical"

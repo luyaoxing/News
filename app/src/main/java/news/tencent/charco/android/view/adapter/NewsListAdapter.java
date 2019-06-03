@@ -106,6 +106,7 @@ public class NewsListAdapter extends BaseMultiItemQuickAdapter<MultiItemEntity,B
         helper.addOnClickListener(R.id.iv_delete);
     }
 
+    //热门精选
     private void setScrollText(BaseViewHolder helper){
         ViewFlipper viewFlipper = helper.getView(R.id.viewFlipper);
         if (viewFlipper != null){

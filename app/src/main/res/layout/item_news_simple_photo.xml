@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:text="一个有希望的民族不能没有英雄"
+        android:text="广州大学松田学院"
         android:textSize="17sp"
         android:lineSpacingExtra="5dp"
         android:textColor="@color/black_text"
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="澎湃新闻"
+            android:text="腾讯新闻"
             android:maxLength="6"
             android:textColor="@color/news_resource"/>
 
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="13小时前"
+            android:text="13 hours ago"
             android:textColor="@color/text_grey"/>
 
         <TextView

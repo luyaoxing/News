@@ -34,7 +34,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="?actionBarSize"
                     android:layout_marginRight="16dp"
-                    android:text="文章标题"
+                    android:text="广州大学松田学院"
                     android:textColor="@color/black_text"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -59,7 +59,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="6dp"
-                        android:text="文章来源"
+                        android:text="IMChiLe"
                         android:textColor="@color/gold_text"
                         android:textSize="14sp" />
 
@@ -76,7 +76,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="6dp"
-                        android:text="2018/07/21 12:00"
+                        android:text="2019/05/21 17:00"
                         android:textColor="@color/text_grey"
                         android:textSize="14sp" />
 

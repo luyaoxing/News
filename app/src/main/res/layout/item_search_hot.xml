@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/tv_hot_name"
         android:layout_centerVertical="true"
-        android:text="今日热点"
+        android:text="热点聚焦"
         android:textSize="16sp"
         android:textColor="@color/black_text"
         android:paddingLeft="15dp"

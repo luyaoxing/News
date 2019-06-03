@@ -158,13 +158,13 @@ public class NewsRefreshHeadView extends FrameLayout  implements RefreshHeader {
         switch (newState) {
             case None:
             case PullDownToRefresh:
-                mTvHint.setText("下拉获取新闻");
+                mTvHint.setText("下拉刷新");
                 break;
             case Refreshing:
-                mTvHint.setText("正在发现新闻");
+                mTvHint.setText("正在刷新");
                 break;
             case ReleaseToRefresh:
-                mTvHint.setText("释放获取新闻");
+                mTvHint.setText("释放刷新");
                 break;
         }
     }

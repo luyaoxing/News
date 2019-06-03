@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="14sp"
-                android:text="0图"
+                android:text="5图"
                 android:layout_marginLeft="12dp"
                 android:layout_marginBottom="14dp"
                 android:layout_alignParentBottom="true"/>
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="澎湃新闻"
+            android:text="腾讯新闻"
             android:textColor="@color/news_resource"/>
 
         <TextView
@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="13小时前"
+            android:text="5小时前"
             android:textColor="@color/text_grey"/>
 
         <TextView
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="200万阅"
+            android:text="10万+阅"
             android:textColor="@color/text_grey"/>
 
         <View

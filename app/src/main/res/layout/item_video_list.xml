@@ -47,7 +47,7 @@
                 android:layout_marginLeft="10dp"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="视频作者"
+                android:text="maker"
                 android:textColor="@color/black_text"
                 android:textSize="16sp"
                 android:maxLength="8"
@@ -55,7 +55,7 @@
 
             <TextView
                 android:id="@+id/tv_date"
-                android:text="10分钟前"
+                android:text="one hour ago"
                 android:layout_marginLeft="10dp"
                 android:textSize="11sp"
                 android:textColor="@color/text_grey"
@@ -79,7 +79,7 @@
                 android:layout_marginLeft="20dp"
                 android:drawablePadding="5dp"
                 android:gravity="center"
-                android:text="50"
+                android:text="500"
                 android:textColor="@color/text_grey"
                 android:textSize="14sp"
                 />

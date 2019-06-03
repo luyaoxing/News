@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">TencentNews</string>
+    <string name="app_name">纽斯</string>
     <string name="stick">置顶</string>
-    <string name="title">一个有希望的民族不能没有英雄</string>
-    <string name="hot_spots_of_selected">热点精选</string>
+    <string name="title">广州大学松田学院</string>
+    <string name="hot_spots_of_selected">热门精选</string>
     <string name="subject">专题</string>
     <string name="poor_content_quality">内容质量差</string>
     <string name="repeat_old_news">重复旧闻</string>

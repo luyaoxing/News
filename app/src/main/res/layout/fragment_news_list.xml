@@ -33,7 +33,7 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         android:visibility="invisible"
-        android:text="刷新完成"
+        android:text="发现了新内容"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

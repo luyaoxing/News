@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="澎湃新闻"
+            android:text="腾讯新闻"
             android:textColor="@color/news_resource"/>
 
         <TextView
@@ -80,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="11sp"
-            android:text="13小时前"
+            android:text="1 hour ago"
             android:textColor="@color/text_grey"/>
 
         <TextView
