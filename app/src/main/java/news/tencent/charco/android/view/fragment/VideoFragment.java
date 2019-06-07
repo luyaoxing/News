@@ -1,6 +1,7 @@
 package news.tencent.charco.android.view.fragment;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.view.View;
@@ -52,8 +53,15 @@ public class VideoFragment extends BaseFragment {
     protected void loadData() {
         channels = getResources().getStringArray(R.array.channel);
         initIndicator();
-        for (String channel : channels){
-            fragments.add(new VideoListFragment());
+//        for (String channel : channels){
+//          fragments.add(new VideoListFragment());
+//        }
+        for (int i=0;i<channels.length;i++){
+            Bundle args = new Bundle();
+            args.putString("key",i+"");
+            VideoListFragment f = VideoListFragment.newInstance(args);
+            f.setKey(i);
+            fragments.add(f);
         }
         mViewPager.setAdapter(new BaseFragmentAdapter(fragments,getChildFragmentManager()));
     }

@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:networkSecurityConfig="@xml/network_security_config"
         android:name=".NewsApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/network_security_config" />
+
         <activity
             android:name=".view.activity.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
@@ -25,8 +30,9 @@
         <activity
             android:name=".view.activity.WebViewActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".view.activity.AlbumActivity"
-            android:theme="@style/TransparentTheme"/>
+        <activity
+            android:name=".view.activity.AlbumActivity"
+            android:theme="@style/TransparentTheme" />
     </application>
 
 </manifest>
