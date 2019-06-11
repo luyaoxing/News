@@ -35,7 +35,7 @@ public class VideoListAdapter extends BaseQuickAdapter<New,BaseViewHolder> {
     @Override
     protected void convert(BaseViewHolder helper, New item) {
         //Log.i("kwwl","i=="+helper.getLayoutPosition());
-        //Log.i("kwwl","videourl=="+item.getVideourl());
+        Log.i("kwwl","videourl=="+item.getVideourl());
         //设置视频
         JZVideoPlayerStandard videoPlayer = helper.getView(R.id.video_player);
         videoPlayer.setAllControlsVisiblity(VISIBLE, GONE, VISIBLE, GONE, VISIBLE, VISIBLE, GONE);

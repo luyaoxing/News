@@ -47,7 +47,8 @@ public class VideoListFragment extends BaseFragment implements RecyclerView.OnCh
     private RecyclerView mRecyclerView;
 
     // 访问的服务器路径
-    private String path="http://10.0.2.2:8080/SelectIndexNews";
+    //private String path="http://10.0.2.2:8080/SelectIndexNews";
+    private String path="http://106.14.167.49:8080/news/SelectIndexNews";
 
     //key 用于传输给服务器的newtype
     private int key=0;
@@ -71,7 +72,7 @@ public class VideoListFragment extends BaseFragment implements RecyclerView.OnCh
     public void initView(View rootView) {
         Log.i("kwwl","key=="+key);
         getDataAsync();
-        SystemClock.sleep(3000);
+        SystemClock.sleep(2000);
         mRecyclerView = findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity(),LinearLayoutManager.VERTICAL,false));
         //mRecyclerView.setAdapter(new VideoListAdapter(Arrays.asList(getResources().getStringArray(R.array.hot))));
@@ -99,7 +100,7 @@ public class VideoListFragment extends BaseFragment implements RecyclerView.OnCh
                         @Override
                         public void onResponse(Call call, Response response) throws IOException {
                             parseJsonWithJsonObject(response);
-                            //Log.i("kwwl","clientvideourl=="+list.get(0).getVideourl());
+                            Log.i("kwwl","response.boby=="+response.body());
                         }
                     });
                 } catch (Exception e) {
