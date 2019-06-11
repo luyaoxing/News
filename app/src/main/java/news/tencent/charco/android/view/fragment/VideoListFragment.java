@@ -72,7 +72,7 @@ public class VideoListFragment extends BaseFragment implements RecyclerView.OnCh
     public void initView(View rootView) {
         Log.i("kwwl","key=="+key);
         getDataAsync();
-        SystemClock.sleep(2000);
+        SystemClock.sleep(500);
         mRecyclerView = findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity(),LinearLayoutManager.VERTICAL,false));
         //mRecyclerView.setAdapter(new VideoListAdapter(Arrays.asList(getResources().getStringArray(R.array.hot))));
