@@ -13,6 +13,7 @@ import cn.jzvd.JZVideoPlayer;
 import cn.jzvd.JZVideoPlayerStandard;
 import news.tencent.charco.android.New;
 import news.tencent.charco.android.R;
+import news.tencent.charco.android.utils.Time;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
@@ -34,8 +35,9 @@ public class VideoListAdapter extends BaseQuickAdapter<New,BaseViewHolder> {
 
     @Override
     protected void convert(BaseViewHolder helper, New item) {
-        //Log.i("kwwl","i=="+helper.getLayoutPosition());
+        Log.i("kwwl","i=="+helper.getLayoutPosition());
         Log.i("kwwl","videourl=="+item.getVideourl());
+        Log.i("kwwl","date=="+item.getDateofpublication());
         //设置视频
         JZVideoPlayerStandard videoPlayer = helper.getView(R.id.video_player);
         videoPlayer.setAllControlsVisiblity(VISIBLE, GONE, VISIBLE, GONE, VISIBLE, VISIBLE, GONE);
@@ -50,5 +52,8 @@ public class VideoListAdapter extends BaseQuickAdapter<New,BaseViewHolder> {
         //设置作者
         TextView author=helper.getView(R.id.tv_publisher);
         author.setText(item.getAuthor());
+        //设置日期
+        TextView date=helper.getView(R.id.tv_date);
+        date.setText(Time.CalculateTime(item.getDateofpublication()));
     }
 }
