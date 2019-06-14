@@ -13,9 +13,9 @@ import com.goka.blurredgridmenu.GridMenuFragment;
 
 import news.tencent.charco.android.R;
 import news.tencent.charco.android.base.BaseFragment;
-import news.tencent.charco.android.utils.HttpUtil;
-import news.tencent.charco.android.view.activity.MainActivity;
-import news.tencent.charco.android.view.activity.SMSActivity;
+//import news.tencent.charco.android.utils.HttpUtil;
+//import news.tencent.charco.android.view.activity.MainActivity;
+//import news.tencent.charco.android.view.activity.SMSActivity;
 
 /**
  * Created 18/7/5 11:09

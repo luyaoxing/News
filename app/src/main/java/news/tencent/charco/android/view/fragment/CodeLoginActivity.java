@@ -14,8 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import news.tencent.charco.android.R;
-import news.tencent.charco.android.view.activity.SMSActivity;
-
+//import news.tencent.charco.android.view.activity.SMSActivity;
 import static news.tencent.charco.android.NewsApplication.getContext;
 
 public class CodeLoginActivity extends AppCompatActivity {
@@ -57,8 +56,8 @@ public class CodeLoginActivity extends AppCompatActivity {
                     new Thread(new Runnable() {
                         @Override
                         public void run() {
-                            SMSActivity smsActivity = new SMSActivity();
-                            smsActivity.getCode(s);
+//                            SMSActivity smsActivity = new SMSActivity();
+//                            smsActivity.getCode(s);
                             Looper.prepare();
                             new Handler().post(new Runnable() {
                                 @Override

@@ -43,7 +43,7 @@ public class NewsListFragment extends BaseFragment implements RecyclerView.OnChi
 
     @Override
     protected int provideContentViewId() {
-        return R.layout.fragment_news_list;
+        return R.layout.fragment_recommend_list;
     }
 
     @Override
